@@ -1,0 +1,86 @@
+.main-os{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 85px;
+    background-color: white;
+    overflow: hidden;
+}
+.title-os{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    padding: 30px 40px 20px 40px;
+    color: #000887;
+    font-size: 50px;
+}
+
+.title-os span{
+    color: #ed51c2;
+}
+
+.title-p{
+    font-family: "Poppins",sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-ourServices{
+    text-align: center;
+    color: #000887;
+    font-size: 40px;
+    font-family: "Anta", sans-serif;
+    padding-top: 15px;
+}
+
+.title-ourServices span{
+    color: #ed51c2;
+}
+
+.types-services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width:700px){
+    .types-services{
+        justify-content: center;
+    }
+}
+
+.Application{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.Application img{
+    width: 150px;
+    height: 150px;
+}
+
+.service-name{
+    text-align: center;
+    font-family: "Anta",sans-serif;
+}
+
+.content-service{
+    width: 400px;
+    text-align: center;
+    padding: 30px 50px 10px 50px;
+    font-size: 17px;
+    font-family: "Poppins",sans-serif;
+}
+
+.contact-redirect{
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Anta",sans-serif;
+    background-color: #ed51c2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}

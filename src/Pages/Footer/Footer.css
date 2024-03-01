@@ -1,0 +1,22 @@
+.Footer-main{
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000887;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end-img{
+    width: 100px;
+    height: 80px;
+}
+
+.end{
+    text-align: center;
+    color: white;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+}

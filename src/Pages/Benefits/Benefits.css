@@ -1,0 +1,36 @@
+.Benefits-contents{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 50px;
+    background-color: white;
+    overflow: hidden;
+}
+.types-services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width:700px){
+    .types-services{
+        justify-content: center;
+    }
+}
+
+.Benefits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+.Benefits img{
+    width: 200px;
+    height: 200px;
+}
+
+.service-name{
+    text-align: center;
+    font-family: "Anta",sans-serif;
+}
